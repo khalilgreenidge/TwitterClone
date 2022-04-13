@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" text="Jabber" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bham.fsd.assignments.jabberserver.MainController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="B1" layoutX="338.0" layoutY="442.0" mnemonicParsing="false" onAction="#login" prefHeight="44.0" prefWidth="73.0" text="Sign In" />
+            <TextField fx:id="T1" layoutX="225.0" layoutY="218.0" promptText="Username" />
+            <Button fx:id="B2" layoutX="189.0" layoutY="442.0" mnemonicParsing="false" onAction="#register" prefHeight="44.0" prefWidth="73.0" text="Register" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane fx:id="P2" animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="200.0" text="Who To Follow" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bham.fsd.assignments.jabberserver.UsersNotFollowingController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="usersNotFollowing" prefHeight="476.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="colUsername" prefWidth="107.0" text="Username" />
+                <TableColumn fx:id="B5" text="Follow" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+  </content>
+</TitledPane>

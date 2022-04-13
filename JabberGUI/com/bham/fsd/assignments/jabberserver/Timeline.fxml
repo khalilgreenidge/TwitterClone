@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane fx:id="P1" animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" text="Timeline" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bham.fsd.assignments.jabberserver.TimelineController">
+    <content>
+        <AnchorPane id="send" fx:id="anchorPane" minHeight="0.0" minWidth="0.0" prefHeight="237.0" prefWidth="260.0">
+            <children>
+            <TableView fx:id="table" layoutX="24.0" layoutY="14.0" prefHeight="365.0" prefWidth="489.0">
+              <columns>
+                <TableColumn fx:id="ColJabberUser" prefWidth="87.0" text="ColJabberUser" />
+                <TableColumn fx:id="ColJabText" minWidth="0.0" prefWidth="188.0" text="ColJabText" />
+                  <TableColumn fx:id="ColLikeButton" prefWidth="99.0" text="ColLikeButton" />
+                  <TableColumn fx:id="ColNumLikes" editable="false"
+                               minWidth="0.0" prefWidth="112.0"
+                               sortable="false" text="ColNumLikes"/>
+              </columns>
+            </TableView>
+            <TextField fx:id="T2" alignment="TOP_LEFT" layoutX="27.0" layoutY="399.0" prefHeight="190.0" prefWidth="386.0" promptText="Write your jab..." />
+            <Button fx:id="B6" layoutX="211.0" layoutY="610.0" mnemonicParsing="false" onAction="#postJab" prefHeight="25.0" prefWidth="112.0" text="Jab!" />
+            </children></AnchorPane>
+    </content>
+</TitledPane>

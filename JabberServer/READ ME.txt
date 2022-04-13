@@ -1,0 +1,7 @@
+Server
+- Created by Khalil Greenidge, 2239987
+- Main class is called "JabberServer.java"
+
+Client
+- Created by James Easy, 2222741
+- Main class is called "Main.java"
